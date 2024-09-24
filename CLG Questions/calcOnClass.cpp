@@ -15,7 +15,7 @@ class Greater {
         cout<<a<<" "<<b;
     }
 
-    Greater cla(Greater p,Greater p2){
+    void cla(Greater p,Greater p2){
         a= p.a>p2.a ? p.a: p2.a;
         b= p.b>p2.b ? p.b: p2.b;
     }
