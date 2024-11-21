@@ -19,6 +19,7 @@ class data{
 
 int main(){
     data d1[6];
+    
     for (int i = 0; i < 6; i++)
     {
         d1[i].scan();
@@ -27,9 +28,11 @@ int main(){
     {
         d1[i].print();
     }
+
     int ele;
     cout<<"\nenter element to search ";
     cin>>ele;
+
     for (int i = 0; i < 6; i++)
     {
         int flag=0;
